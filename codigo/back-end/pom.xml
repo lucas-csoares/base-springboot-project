@@ -8,11 +8,11 @@
         <version>3.3.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.spring</groupId>
+    <groupId>org.springframework.samples</groupId>
     <artifactId>springboot-base</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-base</name>
-    <description>springboot-base</description>
+    <description>Spring Boot project base</description>
     <url/>
     <licenses>
         <license/>
