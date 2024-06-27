@@ -14,11 +14,9 @@ import org.springframework.samples.springbootbase.model.NamedEntity;
 @EqualsAndHashCode(callSuper = true)
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(schema = "TB_ROLE")
-public class Role extends NamedEntity
-{
+@Table(name = "TB_ROLE")
+public class Role extends NamedEntity{
 
     @Column(name = "USER_PROFILE", nullable = false)
     private Integer userProfile;
-
 }

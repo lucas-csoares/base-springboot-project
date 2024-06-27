@@ -24,7 +24,7 @@ import static org.springframework.samples.springbootbase.util.constantes.Validat
 @Schema(description = "Details about the user")
 public class User extends Person {
 
-    @Column(name = "SENHA", nullable = false)
+    @Column(name = "PASSWORD", nullable = false)
     @Size(min = 6, max = 200, message = MSG_ERROR_PASSWORD)
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
