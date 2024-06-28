@@ -9,7 +9,6 @@ import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.samples.springbootbase.user.User;
 import org.springframework.samples.springbootbase.user.UserControllerImpl;
 import org.springframework.samples.springbootbase.user.UserDTO;
-
 import static java.lang.String.format;
 import static java.util.Collections.singletonList;
 
