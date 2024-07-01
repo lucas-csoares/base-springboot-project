@@ -14,7 +14,9 @@ public enum PermissionEnum {
 
     ADMIN(ONE, "ROLE_ADMIN"),
 
-    USER(TWO, "ROLE_USUARIO");
+    USER(TWO, "ROLE_USUARIO"),
+
+    GUARDIAN(THREE, "ROLE_GUARDIAN"); // example profile
 
     private final Integer code;
 
