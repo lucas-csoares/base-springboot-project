@@ -98,7 +98,7 @@ public class DateTimeUtil {
     }
 
     @Operation(summary = "Calculate the difference in hours between two LocalDateTime instances")
-    public static long calcularDiferencaDeTempo(LocalDateTime dataHora1, LocalDateTime dataHora2) {
+    public static long calcDifTime(LocalDateTime dataHora1, LocalDateTime dataHora2) {
         Duration duration = Duration.between(dataHora1, dataHora2);
         return duration.toHours();
     }
